@@ -27,9 +27,9 @@ def _gemini(system, user, api_key, max_tokens=900):
         "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.3},
     }
     for model in models:
-        url = f"{_BASE}/v1beta/models/{model}:generateContent?key={api_key}"
+        url = f"{_BASE}/v1beta/models/{model}:generateContent"
         req = urllib.request.Request(url, data=json.dumps(payload).encode(),
-              headers={"Content-Type": "application/json"}, method="POST")
+              headers={"Content-Type": "application/json", "x-goog-api-key": api_key}, method="POST")
         try:
             with urllib.request.urlopen(req, timeout=25) as r:
                 data = json.loads(r.read())
