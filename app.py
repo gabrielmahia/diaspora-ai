@@ -183,4 +183,4 @@ with tab5:
         st.session_state.dias_msgs.append(("assistant", ans))
 
 st.divider()
-st.caption("⚠️ General information only — not legal, tax, or financial advice. Always consult a licensed professional. © 2026 Gabriel Mahia · CC BY-NC-ND 4.0")
+st.caption("⚠️ General information only — not legal, tax, or financial advice. Always consult a licensed professional. © 2026 Gabriel Mahia · PolyForm Noncommercial 1.0.0")
