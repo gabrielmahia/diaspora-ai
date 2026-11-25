@@ -2,7 +2,7 @@
 
 > The AI advisor for Kenyans living the dual life — navigating careers, finances, family, and identity across the USA and Kenya.
 
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](LICENSE)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial%201.0.0-blue.svg)](LICENSE)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Live-red)](https://diasporaai.streamlit.app)
 [![Gemini](https://img.shields.io/badge/Gemini-Free%20tier-blue)](https://aistudio.google.com)
 
@@ -36,4 +36,4 @@ DiasporaAI provides **general information**, not legal, tax, or financial advice
 ## IP & Collaboration
 
 © 2026 Gabriel Mahia · [contact@aikungfu.dev](mailto:contact@aikungfu.dev)
-License: CC BY-NC-ND 4.0
+License: PolyForm Noncommercial 1.0.0
